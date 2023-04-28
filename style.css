@@ -196,3 +196,105 @@ nav ul {
   color: var(--color1);
   font-weight: 700;
 }
+
+.contact {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5% 0;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-list {
+  display: flex;
+}
+
+.contact-list > div {
+  width: 33%;
+}
+
+.list h5 {
+  text-transform: uppercase;
+}
+
+.infos-p {
+  padding: 5px 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.infos-p li {
+  padding: 5px 0;
+}
+
+.infos-p li > a {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+.list p {
+  font-size: 0.8rem;
+  width: 80%;
+}
+
+.list a {
+  text-decoration: none;
+  color: var(--color1);
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.list h6 {
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+.footer-logos {
+  margin: 2px;
+}
+
+.network {
+  margin-bottom: 2px;
+}
+
+.copyright {
+  margin-bottom: -4%;
+  margin-top: 10%;
+}
+
+.contact-medias {
+  margin: 3% 0;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  align-items: center;
+  position: relative;
+}
+
+.contact-medias:before {
+  content: "";
+  position: absolute;
+  background: var(--color1);
+  height: 1px;
+  width: 80%;
+  top: -14%;
+  transform: translateX(10%);
+}
+
+.contact-medias .medias-text > h3 {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+}
+
+.medias-text p {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.medias-logos {
+  justify-content: space-between;
+  display: flex;
+}
